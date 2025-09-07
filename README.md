@@ -10,3 +10,4 @@ Progetto Django del corso YouTube.
 4. Installa dipendenze: `pip install -r requirements.txt`
 5. Esegui migrazioni: `python manage.py migrate`
 6. Avvia server: `python manage.py runserver`
+
