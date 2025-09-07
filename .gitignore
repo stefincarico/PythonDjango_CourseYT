@@ -1,0 +1,146 @@
+# File .gitignore per Python Django su Windows
+
+# Ambiente virtuale
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# File di ambiente (variabili d'ambiente)
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Database
+*.sqlite3
+*.db
+*.mdb
+
+# File di dump del database
+*.dump
+*.backup
+
+# File di migrazione (eccetto le cartelle)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# File statici raccolti
+staticfiles/
+mediafiles/
+
+# File di cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Installatori distribuzione
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# File di installazione
+pip-delete-this-directory.txt
+
+# File di unit test
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# File di configurazione IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# File di log
+*.log
+logs/
+
+# File temporanei
+*.tmp
+*.temp
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File specifici Windows
+# File di paging del database
+*.ldb
+
+# File di blocco SQLite
+*.sqlite3-journal
+
+# File di cache
+.appveyor.yml
+
+# File di sessione Django
+*.session
+
+# File di sicurezza (non committare mai!)
+secrets.py
+local_settings.py
+
+# File di dump
+*.pickle
+
+# File generati da Jupyter
+.ipynb_checkpoints/
+
+# File di packaging Python
+*.manifest
+*.spec
+
+# File di installazione pip
+pip-log.txt
+
+# File di test
+test.db
+
+# File di PyCharm
+.idea/
+
+# File di VS Code
+.vscode/
+
+# File di virtualenv (Windows specific)
+[Bb]in/
+[Ll]ib/
+[Ll]ib64/
+[Ss]cripts/
+pyvenv.cfg
+pip-selfcheck.json
+
+# File di cache Pytest
+.pytest_cache/
+
+# File di cache Black
+.blackd.cache
+
+# File di coverage
+.coverage
+.coverage.*
+
+# File di mypy
+.mypy_cache/
